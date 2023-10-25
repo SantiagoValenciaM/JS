@@ -9,7 +9,16 @@
 <body>
     <h1>Inicios Javascript</h1>
 
-
     <script src="index.js"></script>
+    <br>
+    <form method="dialog">
+        <label for="title">Calificaciones</label>
+        <input id="calificacion1" type="text" placeholder="Ingresa tu 1ra Calificación">
+        <input id="calificacion2" type="text" placeholder="Ingresa tu 2da Calificación">
+        <input id="calificacion3" type="text" placeholder="Ingresa tu 3ra Calificación">
+        <button id="boton" onclick="calcularPromedio()">Enviar</button>
+        <p id="texto-promedio"></p>
+        <p id="texto-resultado"></p>
+    </form>
 </body>
 </html>
